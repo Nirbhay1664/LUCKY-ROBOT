@@ -327,7 +327,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⍟ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©* [𝐋 𝐮 𝐜 𝐤 𝐲](https://t.me/cute_boy701)\n\n*ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴛʜᴇ {}*\n".format(
+                "*⍟ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©* [₴₳Ɽ₭₳Ɽ](https://t.me/nirbhay_2x)\n\n*ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴛʜᴇ {}*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -397,17 +397,17 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🥂 ᴏᴡɴᴇʀ", url=f"tg://user?id=1962673406"
+                            text="🥂 ᴏᴡɴᴇʀ", url=f"tg://user?id=5637181520"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ 🥂", url=f"https://t.me/oye_golgappu"
+                            text="ᴜᴘᴅᴀᴛᴇ 🥂", url=f"https://t.me/yaari_apni_apni"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🥀 ꜱᴜᴘᴘᴏʀᴛ", callback_data="emiko_support"
+                            text="🥀 ꜱᴜᴘᴘᴏʀᴛ", callback_data="sarkar_network"
                         ),
-                        InlineKeyboardButton(text="ɪɴꜰᴏ 🥀", callback_data="emiko_menu"),
+                        InlineKeyboardButton(text="ɪɴꜰᴏ 🥀", callback_data="nir"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -427,10 +427,10 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/lobe_ju"
+                            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/yaari_apni_apni"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/oye_golgappu"
+                            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/sarkar_network"
                         ),
                     ],
                     [
@@ -463,7 +463,7 @@ def emiko_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🥂 ᴏᴡɴᴇʀ 🥂", url="tg://user?id=1962673406"
+                            text="🥂 ᴏᴡɴᴇʀ 🥂", url="tg://user?id=5637181520"
                         ),
                         InlineKeyboardButton(
                             text="♦️ ʙᴀᴄᴋ ♦️", callback_data="source_back"
@@ -594,7 +594,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
                     [
                         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="t.me/lobe_ju"),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/oye_golgappu"
+                            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/yaari_apni_apni"
                         ),
                     ],
                     [
@@ -606,31 +606,31 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
 
     elif query.data == "emiko_menu":
         query.message.edit_text(
-            text=f"๏ {dispatcher.bot.first_name}\n" f"\n ɪɴꜰᴏ ᴀʙᴏᴜᴛ ʟᴜᴄᴋʏ",
+            text=f"๏ {dispatcher.bot.first_name}\n" f"\n ɪɴꜰᴏ ᴀʙᴏᴜᴛ sarkar",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/mrluckyxd"
+                            text="ɢɪᴛʜᴜʙ", url="https://github.com/sarkar2x"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/oye_golgappu"
+                            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/yaari_apni_apni"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ʟᴜᴄᴋʏ", url="https://t.me/cute_boy701"
+                            text="sarkar", url="https://t.me/nirbhay_2x"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/ii_1444"
+                            text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/nirbha_y"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/lobe_ju"
+                            text="ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/yaari_apni_apni"
                         ),
-                        InlineKeyboardButton(text="ꜰᴜɴ", url="https://t.me/ii_1443"),
+                        InlineKeyboardButton(text="owner", url="https://t.me/nirbhay_2x"),
                     ],
                     [
                         InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_"),
@@ -988,7 +988,7 @@ def main():
 ㅤ๏ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 ━━━━━━━━━━━━━
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [𝐋 𝐔 𝐂 𝐊 𝐘](https://t.me/cute_boy701)""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [𝐒 𝐀 𝐑 𝐊 𝐀 𝐑](https://t.me/nirbhay_2x)""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
